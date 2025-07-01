@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Iflogin from "./pages/Iflogin";
 import Login from "./pages/Login";
 import { ToastContainer } from "react-toastify";
-export const backendUrl = "http://localhost:3000";
+export const backendUrl = "https://ecommerce-backend-g6b5.onrender.com";
 
 function App() {
   const [token, setToken] = useState(
