@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function Orders() {
   const [orders, setOrders] = useState([]);
-  const backendUrl = "http://localhost:3000";
+  const backendUrl = "https://ecommerce-backend-g6b5.onrender.com";
 
   useEffect(() => {
     const loadOrders = async () => {
